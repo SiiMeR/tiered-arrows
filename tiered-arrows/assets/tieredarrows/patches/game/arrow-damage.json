@@ -1,0 +1,68 @@
+[
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-crude",
+    "op": "replace",
+    "value": 0.5
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-flint",
+    "op": "replace",
+    "value": 1
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-copper",
+    "op": "replace",
+    "value": 1.5
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-tinbronze",
+    "op": "replace",
+    "value": 2.25
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-gold",
+    "op": "replace",
+    "value": 2
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-silver",
+    "op": "replace",
+    "value": 2.1
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-bismuthbronze",
+    "op": "replace",
+    "value": 2.25
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-blackbronze",
+    "op": "replace",
+    "value": 2.5
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-iron",
+    "op": "replace",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-meteoriciron",
+    "op": "replace",
+    "value": 3
+  },
+  {
+    "file": "game:itemtypes/tool/arrow.json",
+    "path": "/attributes/damageByType/*-steel",
+    "op": "replace",
+    "value": 3.5
+  }
+]
