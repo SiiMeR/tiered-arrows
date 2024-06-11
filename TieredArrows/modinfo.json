@@ -1,13 +1,13 @@
 {
     "type": "code",
     "modid": "tieredarrows",
-    "name": "TieredArrows",
+    "name": "Tiered Arrows",
     "authors": [
         "SiiMeR"
     ],
     "description": "Adds a tier to the arrows, so arrows do more damage to armored opponents",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "dependencies": {
-        "game": ""
+        "game": "1.19.8"
     }
 }

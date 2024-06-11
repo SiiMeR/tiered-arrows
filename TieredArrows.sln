@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "CakeBuild\CakeBuild.csproj", "{DE2C4602-C1B1-4B67-9F6C-EED9818076E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiered-arrows", "tiered-arrows\tiered-arrows.csproj", "{7EBB074A-1102-4C95-A3FC-6D2D89875247}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieredArrows", "TieredArrows\TieredArrows.csproj", "{7EBB074A-1102-4C95-A3FC-6D2D89875247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

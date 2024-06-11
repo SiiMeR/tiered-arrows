@@ -4,6 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
+        <RootNamespace>TieredArrows</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,12 +24,12 @@
             <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="0Harmony">
-            <HintPath>$(VINTAGE_STORY)/Lib/0Harmony.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
         <Reference Include="VintagestoryLib">
             <HintPath>$(VINTAGE_STORY)/VintagestoryLib.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="HarmonyLib">
+            <HintPath>$(VINTAGE_STORY)/Lib/0Harmony.dll</HintPath>
             <Private>false</Private>
         </Reference>
     </ItemGroup>
@@ -38,22 +39,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="src\EntityTieredProjectile.cs">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Compile>
-      <Compile Update="src\ItemTieredArrow.cs">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Compile>
-      <Compile Update="src\ItemTieredBow.cs">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Compile>
-      <Compile Update="src\TieredArrowsModSystem.cs">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Compile>
-    </ItemGroup>
-
     <ItemGroup>
       <None Update="modinfo.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
