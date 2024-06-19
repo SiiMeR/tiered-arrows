@@ -5,16 +5,16 @@
     "op": "add",
     "value": {
       "*-crude": 0,
-      "*-flint": 1,
-      "*-copper": 2,
-      "*-tinbronze": 3,
-      "*-gold": 3,
-      "*-silver": 4,
-      "*-bismuthbronze": 5,
-      "*-blackbronze": 6,
-      "*-iron": 7,
-      "*-meteoriciron": 7,
-      "*-steel": 8
+      "*-flint": 0,
+      "*-copper": 1,
+      "*-tinbronze": 2,
+      "*-gold": 2,
+      "*-silver": 3,
+      "*-bismuthbronze": 3,
+      "*-blackbronze": 3,
+      "*-iron": 4,
+      "*-meteoriciron": 4,
+      "*-steel": 5
     }
   }
 ]
