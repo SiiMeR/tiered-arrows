@@ -6,8 +6,8 @@
         "SiiMeR"
     ],
     "description": "Adds a tier to the arrows, so arrows do more damage to armored opponents",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependencies": {
-        "game": "1.19.8"
+        "game": ""
     }
 }
